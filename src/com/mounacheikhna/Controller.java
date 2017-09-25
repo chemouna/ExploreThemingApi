@@ -17,6 +17,7 @@ public class Controller implements Themable {
 
     @Override
     public void visit(ThemeRenderer themeRenderer) {
+        System.out.println("Controller visit");
         themeRenderer.accept(this);
     }
 }

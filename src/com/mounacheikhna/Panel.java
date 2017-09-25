@@ -22,6 +22,7 @@ public class Panel implements Themable {
 
     @Override
     public void visit(ThemeRenderer themeRenderer) {
+        System.out.println("Panel visit");
         themeRenderer.accept(this);
     }
 }

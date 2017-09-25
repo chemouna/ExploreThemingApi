@@ -12,6 +12,7 @@ public class TabsLayout implements Themable {
 
     @Override
     public void visit(ThemeRenderer themeRenderer) {
+        System.out.println("TabsLayout visit");
         themeRenderer.accept(this);
     }
 }

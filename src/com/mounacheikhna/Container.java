@@ -14,6 +14,7 @@ public class Container implements Themable {
     }
 
     void theme() {
+        System.out.println("theme ");
         ThemeRenderer themeRenderer = new ThemeRenderer();
         visit(themeRenderer);
     }
@@ -28,6 +29,7 @@ public class Container implements Themable {
 
     @Override
     public void visit(ThemeRenderer themeRenderer) {
+        System.out.println("Container visit ");
         themeRenderer.accept(this);
     }
 

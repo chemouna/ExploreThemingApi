@@ -12,6 +12,7 @@ public class ThemableAdapter implements Themable {
 
     @Override
     public void visit(ThemeRenderer themeRenderer) {
+        System.out.println("ThemableAdapter visit");
         themeRenderer.accept(this);
     }
 
