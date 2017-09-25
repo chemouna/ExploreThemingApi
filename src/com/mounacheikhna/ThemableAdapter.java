@@ -12,7 +12,7 @@ public class ThemableAdapter implements Themable {
 
     @Override
     public void visit(ThemeRenderer themeRenderer) {
-
+        themeRenderer.accept(this);
     }
 
 }

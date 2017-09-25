@@ -5,8 +5,13 @@ import java.util.List;
 
 public class Container implements Themable {
 
-    TabsLayout tabs;
-    Panel currentPanel;
+    private TabsLayout tabs;
+    private Panel currentPanel;
+
+    public Container() {
+        this.tabs = new TabsLayout();
+        this.currentPanel = new Panel();
+    }
 
     void theme() {
         ThemeRenderer themeRenderer = new ThemeRenderer();
