@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c5ee88a-ad0e-49d0-b269-6f3c30364e07" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mounacheikhna/Container.java" afterPath="$PROJECT_DIR$/src/com/mounacheikhna/Container.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mounacheikhna/Main.java" afterPath="$PROJECT_DIR$/src/com/mounacheikhna/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mounacheikhna/ThemeRenderer.java" afterPath="$PROJECT_DIR$/src/com/mounacheikhna/ThemeRenderer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mounacheikhna/Themable.java" afterPath="$PROJECT_DIR$/src/com/mounacheikhna/Themable.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ThemeRenderer.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/mounacheikhna/ThemeRenderer.java">
+      <file leaf-file-name="Themable.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/mounacheikhna/Themable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="45" lean-forward="false" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+            <state relative-caret-position="135">
+              <caret line="9" column="106" lean-forward="false" selection-start-line="9" selection-start-column="106" selection-end-line="9" selection-end-column="106" />
               <folding />
             </state>
           </provider>
@@ -53,12 +51,12 @@
         <option value="$PROJECT_DIR$/src/com/mounacheikhna/CustomAdapter.java" />
         <option value="$PROJECT_DIR$/src/com/mounacheikhna/TabsLayout.java" />
         <option value="$PROJECT_DIR$/src/com/mounacheikhna/Controller.java" />
-        <option value="$PROJECT_DIR$/src/com/mounacheikhna/Themable.java" />
         <option value="$PROJECT_DIR$/src/com/mounacheikhna/Panel.java" />
         <option value="$PROJECT_DIR$/src/com/mounacheikhna/DefaultThemable.java" />
         <option value="$PROJECT_DIR$/src/com/mounacheikhna/Container.java" />
         <option value="$PROJECT_DIR$/src/com/mounacheikhna/Main.java" />
         <option value="$PROJECT_DIR$/src/com/mounacheikhna/ThemeRenderer.java" />
+        <option value="$PROJECT_DIR$/src/com/mounacheikhna/Themable.java" />
       </list>
     </option>
   </component>
@@ -184,7 +182,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.325" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20833333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -233,14 +231,6 @@
             <marker date="1506354314000" expanded="false" signature="182:188" ph=" }" />
             <marker date="1506354314000" expanded="true" signature="255:263" ph="{}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mounacheikhna/Themable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -310,8 +300,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mounacheikhna/ThemeRenderer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="45" lean-forward="false" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+        <state relative-caret-position="465">
+          <caret line="31" column="31" lean-forward="false" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+          <folding>
+            <marker date="1506356306000" expanded="true" signature="128:235" ph="{...}" />
+            <marker date="1506356306000" expanded="true" signature="285:386" ph="{...}" />
+            <marker date="1506356306000" expanded="true" signature="424:521" ph="{...}" />
+            <marker date="1506356306000" expanded="true" signature="567:672" ph="{...}" />
+            <marker date="1506356306000" expanded="true" signature="720:826" ph="{...}" />
+            <marker date="1506356306000" expanded="true" signature="877:1023" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mounacheikhna/Themable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="106" lean-forward="false" selection-start-line="9" selection-start-column="106" selection-end-line="9" selection-end-column="106" />
           <folding />
         </state>
       </provider>
